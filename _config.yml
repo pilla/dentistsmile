@@ -1,25 +1,25 @@
 # Site settings
-title: DentistSmile | Dental Jekyll Theme
-description: "A responsive Jekyll theme for dental clinics."
+title: Dra. Vívian Ledur Machado
+description: "Ortodontia de excelência"
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the name of your domain
-logo_url: svg/min/logo.svg
+url: http://mockery.asuscomm.com  # the name of your domain
+logo_url: img/logo_vivian.png
 
 # Hero
 hero: 
-    hero_img: hero.jpg
-    hero_title: DentistSmile
-    hero_description: A responsive Jekyll theme for dental clinics.
+    hero_img: vivi_na_mesa.jpg
+    hero_title: Dra. Vívian Ledur Machado
+    hero_description: Ortodontia de Excelência em Pelotas
 
 # Contact form
 api_token: # Enter API token here
 
 # Contact info
 contact:
-    phone: 932 50 540
-    emergency: 931 53 234
-    email: contact@yoursite.com
-    address: Von schroeders 273, <br> Viña del mar - Chile
+    phone: (53) 3027-7966
+    #emergency: 931 53 234
+    email: contato@vivazespacodesaude.com.br
+    address: R. Anchieta, 3069 <br> Pelotas, RS
 
 # Opening hours
 monday_friday: 9:00 – 18:00
@@ -33,19 +33,19 @@ testimonials:
 # Map
 map:
     zoom: 17
-    address: Von schroeders 273, Viña del mar, Chile
+    address: R. Anchieta, 3069, Pelotas
     address_details: svg/min/logo.svg
 
 # Social settings
-facebook: http://facebook.com
-twitter: http://twitter.com
-instagram: http://instagram.com
-youtube: http://youtube.com
-skype: skype:obaez_design?userinfo
+facebook: https://www.facebook.com/vivianorto/
+# twitter: http://twitter.com
+instagram: https://www.instagram.com/vivianortodontista/
+#youtube: http://youtube.com
+#skype: skype:obaez_design?userinfo
 feed: yes
 
 # Footer
-copyright: © 2015 DentistSmile - All rights reserved
+copyright: © 2018 Dra. Vívian Ledur Machado
 
 # Build settings
 markdown: kramdown
