@@ -3,7 +3,7 @@ layout: default
 ---
 
 <!-- Start Hero -->
-<div class="hero" style="background: url('{{ site.baseurl }}/img/{{ site.hero.hero_img }}') no-repeat; background-size: cover;">
+<div class="hero" style="background: url('{{ site.baseurl }}/img/{{ site.hero.hero_img }}') no-repeat; background-size: contain; background-repeat: no-repeat; width: 100%; height: 0; padding-top: 66.64%;">
     <div class="hero-content">
         <div class="container-fluid">
             <div class="hero-content-inner">
@@ -12,27 +12,34 @@ layout: default
             </div>
         </div>
     </div>
-
-    <div class="container-fluid">
+<!-- <br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br>
+<br><br><br><br><br>
+<br><br><br><br><br>
+<br><br><br><br><br>
+<br><br><br><br><br>
+ -->
+    <div class="container-fluid" style="width: 100%; height: 100%;">
         
-        <div class="col-sm-6 col-sm-offset-6 col-md-4 col-md-offset-8 form">
-            <h3><svg class="icon icon-envelope-o"><use xlink:href="#icon-envelope-o"></use></svg>Make an Appointment</h3>
+        <!-- <div class="col-sm-6 col-sm-offset-6 col-md-4 col-md-offset-8 form"> -->
+           <!--  <h3><svg class="icon icon-envelope-o"><use xlink:href="#icon-envelope-o"></use></svg>Entre em contato!</h3>
             <form action="https://getsimpleform.com/messages?form_api_token={{ site.api_token }}" method="post">
                 <div class="form-field">
-                    <input name="name" type="text" placeholder="Name" required>
+                    <input name="name" type="text" placeholder="Nome" required>
                 </div>
                 <div class="form-field">
-                    <input name="phone" type="tel" placeholder="Phone" required>
+                    <input name="phone" type="tel" placeholder="Telefone" required>
                 </div>
                 <div class="form-field">
-                    <input name="email" type="email" placeholder="Email" required>
+                    <input name="email" type="email" placeholder="E-mail" required>
                 </div>
                 <div class="form-field">
-                    <textarea name="comments" placeholder="Message" required></textarea>
+                    <textarea name="comments" placeholder="Mensagem" required></textarea>
                 </div>
-                <input type="submit" class="btn btn-default" value="Send">
-            </form>
-        </div>
+                <input type="submit" class="btn btn-default" value="Envie">
+            </form> -->
+        <!-- </div> -->
+        <!-- <br> -->
 
     </div>
 </div>
@@ -42,39 +49,27 @@ layout: default
 <div class="three-shade-col">
     <div class="col-sm-4">
         <svg class="icon icon-envelope-o"><use xlink:href="#icon-envelope-o"></use></svg>
-        <h3>Contact Us</h3>
+        <h3>Entre em Contato</h3>
         <ul>
-            {% if site.contact.phone %}<li><strong>Phone:</strong> {{ site.contact.phone }}</li>{% endif %}
+            {% if site.contact.phone %}<li><strong>Consultório:</strong> {{ site.contact.phone }}</li>{% endif %}
             {% if site.contact.emergency %}<li><strong>Emergency:</strong> {{ site.contact.emergency }}</li>{% endif %}
             {% if site.contact.email %}<li><strong>Email:</strong> {{ site.contact.email }}</li>{% endif %}
         </ul>
     </div>
     <div class="col-sm-4">
-        <svg class="icon icon-clock-o"><use xlink:href="#icon-clock-o"></use></svg>
-        <h3>Opening Hours</h3>
-        <table>
-            <tbody>
-                <tr>
-                    <td>Monday – Friday</td>
-                    <td>{{ site.monday_friday }}</td>
-                </tr>
-                <tr>
-                    <td>Saturday</td>
-                    <td>{{ site.saturday }}</td>
-                </tr>
-                <tr>
-                    <td>Sunday</td>
-                    <td>{{ site.sunday }}</td>
-                </tr>
-            </tbody>
-        </table>
-    </div>
-    <div class="col-sm-4">
         <svg class="icon icon-map-marker"><use xlink:href="#icon-map-marker"></use></svg>
-        <h3>Location</h3>
+        <h3>Endereço</h3>
             <p>
                 {{ site.contact.address }}
             </p>
+    </div>
+        <div class="col-sm-4">
+        <svg class="icon icon-globe"><use xlink:href="#icon-globe"></use></svg>
+        <h3>Redes Sociais</h3>
+        <ul>
+            <li><strong><a href="{{ site.instagram }}"><svg class="icon icon-instagram" style="vertical-align:middle"><use xlink:href="#icon-instagram"></use></svg> <a href="{{ site.instagram }}" style="color: #ffffff"> @vivianortodontista </a></strong></li>
+            <li><strong><a href="{{ site.facebook }}"><svg class="icon icon-facebook" style="vertical-align:middle"><use xlink:href="#icon-facebook"></use></svg></a> <a href="{{ site.facebook }}" style="color: #ffffff">        vivianorto </a></strong></li>
+        </ul>
     </div>
 </div>
 <!-- End 3 columns -->
@@ -82,32 +77,31 @@ layout: default
 <!-- Start About -->
 <div id="about" class="about">
     <div class="container-fluid">
-        <h2 class="section-title">About Us</h2>
+        <h2 class="section-title">Sobre Vívian</h2>
 
         <div class="row">
             <div class="col-sm-6">
-                <h3>Welcome to DentistSmile</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis nostrum ab vero temporibus magnam, delectus!</p>
-
+                <h3>Dra. Vívian Ledur Machado</h3>
+                <p>Bla Bla Bla Bla Bla.</p><br>
                 <div class="media">
                     <div class="media-left">
                         <div class="boxed-icon">
-                            <svg class="icon icon-heart"><use xlink:href="#icon-heart"></use></svg>
+                            <svg class="icon icon-star"><use xlink:href="#icon-star"></use></svg>
                         </div>
                     </div>
                     <div class="media-body">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam explicabo unde doloremque quo, fugit, nisi.</p>
+                        <p>É Graduada em Odontologia pela ULBRA Canoas em 2000.</p>
                     </div>
                 </div>
 
                 <div class="media">
                     <div class="media-left">
                         <div class="boxed-icon">
-                            <svg class="icon icon-medkit"><use xlink:href="#icon-medkit"></use></svg>
+                            <svg class="icon icon-star-o"><use xlink:href="#icon-star-o"></use></svg>
                         </div>
                     </div>
                     <div class="media-body">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam explicabo unde doloremque quo, fugit, nisi.</p>
+                        <p>Realizou Extensão em Odontopediatria na PUC-RS em 2001.</p>
                     </div>
                 </div>
 
@@ -118,12 +112,48 @@ layout: default
                         </div>
                     </div>
                     <div class="media-body">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam explicabo unde doloremque quo, fugit, nisi.</p>
+                        <p>Atualizou-se em Ortodontia Preventiva e Interceptiva na ABO-RS em 2002.</p>
                     </div>
                 </div>
+                   
+
+                <div class="media">
+                    <div class="media-left">
+                        <div class="boxed-icon">
+                            <svg class="icon icon-star-o"><use xlink:href="#icon-star-o"></use></svg>
+                        </div>
+                    </div>
+                    <div class="media-body">
+                        <p>Tornou-se Especialista em Ortodontia pela SOBRACID-RS em 2005.</p>
+                    </div>
+                </div>
+
+                <div class="media">
+                    <div class="media-left">
+                        <div class="boxed-icon">
+                            <svg class="icon icon-star"><use xlink:href="#icon-star"></use></svg>
+                        </div>
+                    </div>
+                    <div class="media-body">
+                        <p>Extensão em Disfunção dos Maxilares na SOBRACURSOS-RS em 2006.</p>
+                    </div>
+                </div>
+
+                <div class="media">
+                    <div class="media-left">
+                        <div class="boxed-icon">
+                            <svg class="icon icon-diamond"><use xlink:href="#icon-diamond"></use></svg>
+                        </div>
+                    </div>
+                    <div class="media-body">
+                        <p>Credenciada em Invisalign desde 2018.</p>
+                    </div>
+                </div>
+
+
             </div>
             <div class="col-sm-6">
-                <img src="img/about.jpg" alt="...">
+                <img src="img/vivian_perfil.jpg" alt="Dra. Vivian">
             </div>
         </div>
     </div>
@@ -133,7 +163,7 @@ layout: default
 <!-- Start Treatments -->
 <div id="treatments" class="treatments">
     <div class="container-fluid">
-        <h2 class="section-title">Treatments</h2>
+        <h2 class="section-title">Tratamentos</h2>
 
         <div class="row">
             {% for treatment in site.data.treatments %}
@@ -151,7 +181,7 @@ layout: default
 <!-- End Treatments -->
 
 <!-- Start Our team -->
-<div id="team" class="team"> 
+<!-- <div id="team" class="team"> 
     <h2 class="section-title">Our Team</h2> 
     <div id="team-carousel">
     {% for member in site.data.team %}
@@ -169,11 +199,11 @@ layout: default
         </div>
     {% endfor %}
     </div>
-</div>
+</div> -->
 <!-- End Our team -->
 
 <!-- Start Testimonials -->
-<div id="testimonials" class="testimonials parallax" style="background-image: url('{{ site.baseurl }}/img/{{ site.testimonials.testimonials_img }}');">
+<!-- <div id="testimonials" class="testimonials parallax" style="background-image: url('{{ site.baseurl }}/img/{{ site.testimonials.testimonials_img }}');">
     <div class="overlay-container">
         <div class="overlay"></div>
         <div class="container-fluid">
@@ -194,12 +224,12 @@ layout: default
         </div>
     </div>
 </div>
-<!-- End Testimonials -->
+ --><!-- End Testimonials -->
 
 <!-- Start Gallery -->
 <div id="gallery" class="gallery">
         
-    <h2 class="section-title">Gallery</h2>
+    <h2 class="section-title">Galeria</h2>
 
     {% for images in site.data.gallery %}
         <a href="{{ site.baseurl }}/img/gallery/large/{{ images.image_large }}" class="gallery-item expandable-box image-link">
