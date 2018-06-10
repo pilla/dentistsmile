@@ -7,7 +7,7 @@ logo_url: img/logo_vivian.png
 
 # Hero
 hero: 
-    hero_img: vivi_na_mesa.jpg
+    hero_img: vivian_mesa2.jpg
     hero_title: Dra. Vívian Ledur Machado
     hero_description: Ortodontia de Excelência em Pelotas
 
@@ -16,10 +16,13 @@ api_token: # Enter API token here
 
 # Contact info
 contact:
-    phone: (53) 3027-7966
+    phone: (53) 3027-7966 / 98414-1552 (Whatsapp)
+    phone2: (53) 3227-3750
     #emergency: 931 53 234
     email: contato@vivazespacodesaude.com.br
-    address: R. Anchieta, 3069 <br> Pelotas, RS
+    address: <b>Vivaz Espaço de Saúde</b> <br> R. Anchieta, 3069 <br> Pelotas, RS
+    address2: <b>Spazio Sorrir</b><br> R. Barão de Santa Tecla, 583<br> Pelotas, RS
+
 
 # Opening hours
 monday_friday: 9:00 – 18:00
@@ -34,7 +37,7 @@ testimonials:
 map:
     zoom: 17
     address: R. Anchieta, 3069, Pelotas
-    address_details: svg/min/logo.svg
+    address_details: img/logo_vivian_small.png #svg/min/logo.svg
 
 # Social settings
 facebook: https://www.facebook.com/vivianorto/
