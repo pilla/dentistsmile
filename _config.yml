@@ -2,7 +2,7 @@
 title: Dra. Vívian Ledur Machado
 description: "Ortodontia de excelência"
 baseurl: "" # the subpath of your site, e.g. /blog
-url: http://mockery.asuscomm.com  # the name of your domain
+url: http://www.viviledur.com.br  # the name of your domain
 logo_url: /img/logo_vivian.png
 blog_url: blog
 
@@ -65,8 +65,8 @@ exclude: [
 ]
 
 # Theme Settings
-analytics: 
-google_verification:
+analytics: UA-121647999-1
+google_verification: AIzaSyDGAFzoyHi27FrcmVaUXP9JcM7VsKVp324
 
 
 
