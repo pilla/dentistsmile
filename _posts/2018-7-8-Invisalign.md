@@ -27,9 +27,9 @@ Existem inúmeras especialidades na odontologia  e estamos aqui para ajudá-los 
 Hoje falaremos um pouco sobre como corrigir o desalinhamento dos dentes. 
 Já estamos em julho de 2018 e muitos eventos já aconteceram e outros estão por acontecer. Às vezes, deixamos de fazer o que planejamos por falta de tempo ou até mesmo por achar que não é o momento. Isso acontece com a nossa saúde bucal. Porém, não há mais desculpa! Com o avanço tecnológico, conseguimos alcançar o sorriso dos sonhos de forma rápida, menos dolorosa e com  uma previsibilidade incrível:
 
-_O Invisalign R_
+_O Invisalign© R_
 
-O Invisalign R é removível, confortável e quase invisível. 
+O Invisalign© R é removível, confortável e quase invisível. 
 Esse tratamento, consiste numa sequência de alinhadores de acetato, um material bem maleável e de fácil adaptação, confeccionados nos Estados Unidos a partir de um escaneamento ou moldagem dos dentes do paciente.
 Cada alinhador é feito de forma personalizada e vai sendo trocado a cada 7 ou 14 dias, dependendo da indicação do ortodontista. Assim, os dentes vão sendo levados gradualmente à posição ideal de forma precisa e rápida.
 
@@ -43,7 +43,7 @@ Após a primeira avaliação, é feita uma documentação com fotos, radiografia
 <br>
 ##### OS ALINHADORES SÓ SERVEM PARA CASOS MAIS SIMPLES?
 
-*MENTIRA*: Com o avanço tecnológico, surgiram os alinhadores Invisalign R que permitem corrigir a posição dentária de casos mais graves. Isso tudo varia, é claro, com a colaboração do paciente usando os alinhadores corretamente de 18 a 22 horas por dia, dependendo da gravidade do caso, e com o conhecimento técnico do dentista.
+*MENTIRA*: Com o avanço tecnológico, surgiram os alinhadores Invisalign© R que permitem corrigir a posição dentária de casos mais graves. Isso tudo varia, é claro, com a colaboração do paciente usando os alinhadores corretamente de 18 a 22 horas por dia, dependendo da gravidade do caso, e com o conhecimento técnico do dentista.
 <br>
 ##### A HIGIENE É CONTROLADA MAIS FACILMENTE QUANDO COMPARADO AO APARELHO COM BRÁQUETES?
 
