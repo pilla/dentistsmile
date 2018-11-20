@@ -37,13 +37,13 @@ testimonials:
 # Map
 map:
     zoom: 17
-    address: R. Anchieta, 3069, Pelotas
+    address: R. Anchieta, 3069, Pelotas, Brasil
     address_details: img/logo_vivian_small.png #svg/min/logo.svg
 
 # Social settings
 facebook: https://www.facebook.com/vivianledurortodontista/
 # twitter: http://twitter.com
-instagram: https://www.instagram.com/vivianledurortodontista/
+instagram: https://www.instagram.com/vivianledur ortodontista/
 #youtube: http://youtube.com
 #skype: skype:obaez_design?userinfo
 feed: yes
